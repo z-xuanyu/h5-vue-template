@@ -1,5 +1,6 @@
 const state = {
-    userName: '轩钰'
+    userName: '轩钰',
+    token:''
 }
 
 const mutations = {
