@@ -13,36 +13,36 @@
 </template>
 
 <script>
-import TabBar from "./components/TabBar";
+import TabBar from './components/TabBar'
 export default {
   components: {
-    TabBar,
+    TabBar
   },
   data() {
     return {
       tabbars: [
         {
-          title: "首页",
+          title: '首页',
           to: {
-            name: "Home",
+            name: 'Home'
           },
-          icon: "home-o",
+          icon: 'home-o'
         },
         {
-          title: "我的",
+          title: '我的',
           to: {
-            name: "Me",
+            name: 'Me'
           },
-          icon: "user-o",
-        },
-      ],
-    };
+          icon: 'user-o'
+        }
+      ]
+    }
   },
   methods: {
     handleChange(value) {
-      console.log(value);
-    },
-  },
-};
+      console.log(value)
+    }
+  }
+}
 </script>
 <style lang="scss" scoped></style>

@@ -10,7 +10,7 @@
 
 <script>
 export default {
-   props: {
+  props: {
     defaultActive: {
       type: Number,
       default: 0
@@ -25,13 +25,13 @@ export default {
   data() {
     return {
       active: this.defaultActive
-    };
+    }
   },
-  methods:{
-    handleChange(value){
-      this.$emit('change',value)
+  methods: {
+    handleChange(value) {
+      this.$emit('change', value)
     }
   }
-};
+}
 </script>
 <style lang="scss" scoped></style>
